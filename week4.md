@@ -113,3 +113,22 @@ const API_URL = "https://hex-cwa.zeabur.app/api/weather/kaohsiung";
 - 加入更多天氣資訊（濕度、風速、體感溫度等）
 - 加入天氣預報功能
 - 優化 UI/UX 設計
+
+## Backend
+
+- 取得 API Schema 連結，預備提供給 AI 理解
+- 使用 GitHub Copilot in vscode
+- 模型 Claude Opus 4.5
+- 產出 copilot-instructions.md
+- Plan Mode 進行規劃，提出規格，包含
+  - 理解 API 文件
+  - 城市改為變數而非固定字串
+  - 36 小時 API 改為支援臺灣六都城市天氣
+  - 新增六都未來三天天氣 API 端點
+- 依照 Plan Mode 建議補充 Further Conditions
+- 儲存 Plan 到專案中 (Open on Editor & Save)
+- 執行計畫 implement `#path-to-plan`
+- 本地端測試
+- 重新生成 copilot-instructions.md (更新規格)
+- 推送修改、等待 Zeabur 自動部署
+- 前往 Zeabur 測試
