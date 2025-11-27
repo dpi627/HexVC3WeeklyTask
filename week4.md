@@ -132,3 +132,17 @@ const API_URL = "https://hex-cwa.zeabur.app/api/weather/kaohsiung";
 - 重新生成 copilot-instructions.md (更新規格)
 - 推送修改、等待 Zeabur 自動部署
 - 前往 Zeabur 測試
+
+## Frontend
+
+- 使用 Gemini 3 設計寶可夢天氣圖檔
+- 使用 AI Studio 設計城市背景圖檔
+- 使用 AI Studio 設計 icon，使用線上服務去背
+- 彙整相關 prompt 與 api 
+- 使用 Opus 4.5 拆分網頁架構
+- 建立 GitHub Copilot Prompt Files
+- 使用 Plan Mode 規劃重構，改為新的後端 API
+- 生成 copilot-instructions.md
+- 標註規格未達標部分，請 Opus 重新修改
+- 透過 VSCode Preview 選取功能，反覆請 AI 修改
+- 規劃 Playground 頁面，可玩轉圖檔設定
